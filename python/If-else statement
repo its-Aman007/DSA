@@ -1,0 +1,12 @@
+## IF-Else_Elif statement.
+marks=[74,77,60,81,88]
+for mark in marks:
+    if 60<=mark<=70:
+        print(f"Grade for {mark} is B")
+    elif 71<=mark<=74:## we write elif condn only when if condn get rejected. 
+        print(f"Grade for {mark} is A")
+    elif 75<=mark<=85:
+        print(f"Grade for {mark} is A+")
+    else:
+        print(f"Grade for {mark} is O")
+
